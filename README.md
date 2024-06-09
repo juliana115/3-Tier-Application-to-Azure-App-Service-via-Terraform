@@ -54,3 +54,6 @@ Name | Description
 `MSSQL Server`| Microsoft SQL Server  for the app DB
 `MSSQL Database`| Microsoft SQL Database for your Webapp
 
+<h6>Other Important Notes:<h6>
+
+> On main.tf line 41, you can change the repo to any app you prefered to deploy instead of my locationsearch app
