@@ -38,7 +38,7 @@ resource "azurerm_linux_web_app" "app" {
 #connect the web files on github
 resource "azurerm_app_service_source_control" "example" {
   app_id   = azurerm_linux_web_app.app.id
-  repo_url           = "https://github.com/juliana115/locationsearchapp"
+  repo_url           = "https://github.com/juliana115/locationsearchapp" #repo s private, kindly update with your repo
   branch             = "main"
   
   depends_on = [
