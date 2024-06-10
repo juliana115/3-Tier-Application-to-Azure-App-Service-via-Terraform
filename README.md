@@ -56,4 +56,4 @@ Name | Description
 
 <h6>Other Important Notes:<h6>
 
-> On main.tf line 41, you can change the repo to any app you prefered to deploy instead of my locationsearch app
+> On main.tf line 41, locationsearch app refernced here is a private repo contains confidentail, kindly replace with any opensource app
